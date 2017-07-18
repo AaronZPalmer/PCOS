@@ -17,7 +17,7 @@ We prove structural properties of an optimal randomized stopping-policy that all
 # To Compile
 To compile the code, edit the first line of 'Makefile' to define a path to a directory where the output is saved.  Alternatively, FILEPATH can defined at the top of PCOS.hpp
 
-On some machines it will be sufficient to type 'make' in the Unix terminal at the directory with the source files and 'Makefile'.  This code was developed using Xcode 8.3.3 on Mac OS Sierra 10.12.5 and was also tested on Linux Ubuntu.   There are no dependencies besides basic input/output (<iostream>, <fstream>, <sstream>) and <cmath>, which are included in PCOS.hpp.
+On some machines it will be sufficient to type 'make' in the Unix terminal at the directory with the source files and 'Makefile'.  This code was developed using Xcode 8.3.3 on Mac OS Sierra 10.12.5 and was also tested on Linux Ubuntu.   There are no dependencies besides basic input/output ('<iostream>', '<fstream>','<sstream>') and '<cmath>', which are included in PCOS.hpp.
 
 # To Run
 The program is executed in Unix using either 
