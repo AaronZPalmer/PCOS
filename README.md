@@ -1,7 +1,7 @@
 # PCOS
 Numerical Experiments for Probabilistically Constraint Optimal Stopping Problems
 
-This code is provided as a supplement to the paper titled "Optimal Stopping-Time Problems with a Probabilistic Constraint" by Aaron Zeff Palmer and Alexander Vladimirsky, submitted to JOTA in 2017. A link will be provided to the journal upon acceptance. Any questions on the content of the paper may be addressed to the corresponding author, Aaron Zeff Palmer at azp6@cornell.edu. Please do not contact with requests to extend this code or any solicitations.
+This code is provided as a supplement to the paper titled "Optimal Stopping-Time Problems with a Probabilistic Constraint" by Aaron Zeff Palmer and Alexander Vladimirsky, submitted to JOTA in 2017. A link will be provided to the journal upon acceptance. All the code was written by Aaron Zeff Palmer. Any questions on the content of the paper may be addressed to the corresponding author, Aaron Zeff Palmer, at azp6@cornell.edu. Please do not contact with requests to extend this code or any solicitations.
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
