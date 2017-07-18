@@ -45,7 +45,7 @@ int main(int argc, const char * argv[]) {
         int time_steps;
         double psi=0.9;
         double pi=1;
-        double epsilon=0.2;
+        double epsilon=0.02;
         PI *Pi=new PI(size);;
         
         if( string(argv[1])=="ex1") {
