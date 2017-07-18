@@ -260,6 +260,9 @@ void PCOS::solve_constrained(double Delta){
         P=Pi->expectation(R_n);
         E=Pi->expectation(V_n)-lambda*P;
         
+        if(lambda==0){
+            P_0=P;   
+        }
         
         std::cout<<"Iteration: "<<counter<<std::endl;
         std::cout<<"Constraint is: "<<P<<std::endl;
