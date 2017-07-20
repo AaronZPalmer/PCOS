@@ -2,9 +2,11 @@
 //  PCOS
 //
 //  This code is provided as a supplement to the paper titled
-//  "Optimal Stopping-Time Problems with a Probabilistic Constraint"
+//  "Optimal Stopping with a Probabilistic Constraint"
 //  by Aaron Zeff Palmer and Alexander Vladimirsky, submitted to
-//  JOTA in 2017. A link will be provided to the journal upon acceptance.
+//  the Journal of Optimization Theory and Applications in 2017. 
+//  A link will be provided to the journal upon acceptance.
+//
 //  All the code was written by Aaron Zeff Palmer. Any questions on the
 //  content of the paper may be addressed to the corresponding author,
 //  Aaron Zeff Palmer, at azp6@cornell.edu. Please do not contact with
