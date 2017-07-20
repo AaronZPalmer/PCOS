@@ -12,9 +12,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # Abstract
-We study a stochastic optimal stopping-time problem with a probabilistic constraint. Optimality criteria give rise to a value function corresponding to the expected cost penalized by the probabilistically constrained value with a Lagrange multiplier. The Bellman optimality equations can then be solved for the Lagrangian relaxation.
-
-We prove structural properties of an optimal randomized stopping-policy that allow for efficient computation.  We present an algorithm for approximating it: first with a deterministic feasible policy and then with its nearly-deterministic improvement.  We prove that the latter is actually optimal in the randomized class for suitably chosen algorithm parameters. In two numerical examples we demonstrate the qualitative features of the optimal policies and performance of our algorithms.
+We present an efficient method for optimal stopping problems with a probabilistic constraint. The goal is to optimize the expected cumulative cost, but with the prescribed upper bound on the probability that this cost exceeds  a threshold value.  This probabilistic constraint causes optimal policies to be time-dependent and randomized, however,  we show that an optimal policy can always be selected with "piecewise-monotonic" time-dependence and "nearly-deterministic" randomization.  We prove these properties using the Bellman optimality equations for a Lagrangian relaxation of the original problem. Our algorithm exploits these properties for computational efficiency.  We illustrate its performance and the structure of optimal policies on two numerical examples. 
 
 # To Compile
 To compile the code, edit the first line of 'Makefile' to define a path to a directory where the output is saved.  Alternatively, FILEPATH can defined at the top of PCOS.hpp
